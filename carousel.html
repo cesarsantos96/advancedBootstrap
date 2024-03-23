@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<h lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <title>Carousel</title>
+</head>
+<body>
+    <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1518639504995-99a597bce652?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFVydWd1YXl8ZW58MHx8MHx8fDA%3D" alt="praia-farol"/>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1616959313137-186688889054?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VXJ1Z3VheXxlbnwwfHwwfHx8MA%3D%3D" alt="praia"/>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1577801599718-f4e3ad3fc794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXJnZW50aW5hfGVufDB8fDB8fHww" alt="campo"/>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-nex" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
