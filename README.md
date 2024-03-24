@@ -38,3 +38,9 @@ Implement modals with JavaScript.
 Create a responsive and personalized navigation bar;
 Implement smooth scrolling effects and active navigation;
 Understand Bootstrap's responsive framework.
+
+## Define and develop tab's
+
+Create interactive tabs with Bootstrap;
+Customize the look of the tabs;
+Manage tab content.
