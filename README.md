@@ -44,3 +44,9 @@ Understand Bootstrap's responsive framework.
 Create interactive tabs with Bootstrap;
 Customize the look of the tabs;
 Manage tab content.
+
+## Define and develop toasts
+
+Understand the concept of toasts;
+Configure and customize toasts with Bootstrap;
+Add interactivity to toasts.

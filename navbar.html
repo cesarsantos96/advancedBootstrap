@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
@@ -32,6 +32,7 @@
                     </li>
                 </ul>
             </nav>
+            <button id="btn-checar-emails" type="button" class="btn btn-warning">Checar caixa de entrada</button>
             </div>
         </div>
     </header>
@@ -67,7 +68,25 @@
             <h2>Contato</h2>
         </section>
     </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast" id="mensagens-alerta">
+            <header class="toast-header">
+                <strong>Importante</strong>
+            </header>
+            <div class="toast-body">
+                Você possui 10 mensagens não lidas!
+                <div class="mt-2 pt-2 boder-top">
+                    <button data-bs-dismiss="toast" class="btn btn-danger" type="button">
+                        Descartar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="/lib/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+
 </body>
 </html>
 </html>
