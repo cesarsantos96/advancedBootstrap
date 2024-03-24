@@ -32,3 +32,6 @@ Understand drop-down menu interactivity.
 Understand the basic principles of Bootstrap modals;
 Create interactive and functional modals;
 Implement modals with JavaScript.
+
+## Define and develop navBar
+
