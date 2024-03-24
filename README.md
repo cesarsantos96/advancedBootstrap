@@ -20,3 +20,9 @@ Understand drop-down menu interactivity.
 Understand the basic structure of a Bootstrap carousel;
 Create a functional carousel with images;
 Customize the appearance of the carousel.
+
+## Define an develop dropdown
+
+Understand the creation of a functional drop-down menu;
+Apply custom classes and styles;
+Understand drop-down menu interactivity.
